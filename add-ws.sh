@@ -74,7 +74,7 @@ cat>/etc/v2ray/$user-mkcp.json<<EOF
       "id": "${uuid}",
       "aid": "0",
       "net": "kcp",
-      "path": "/xray",
+      "path": "/xray/",
       "type": "dtls",
       "host": "",
       "tls": "none"
